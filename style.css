@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* top-nav represents the container for our header and tabs at top of page  */
+.top-nav {
+    height: 100px;
+    width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border: 3px solid black;
+}
+
+p2 {
+    color: white;
+}
+
+button {
+    background-color: lightblue;
+}
+
+h1, h3, h4, h5 {
+    color: white;
+}
+
+h6 {
+    font-size: larger;
+}
+/* the container below should act as a back-drop to nest our columns */
+.container {
+    height: 900px;
+    width: 1000px;
+    /* background-color: darkolivegreen; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+/* column-1 holds the top-left-box and bottom-left-box as well as the contents nested inside */
+.column-1 {
+    columns: 1;
+    width: 400px;
+    height: 880px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top-left-box {
+    height: 380px;
+    width: 380px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid gray;
+}
+
+/* tiny-rectangle describes the contents being held inside of top-left-box  */
+.tiny-rectangle {
+    width: 380px;
+    height: 100px;
+    background-color: lightblue;
+    /* border: 1px solid gray; */
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: relative;
+    /* top:160px; */
+    bottom: 70px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.top-left-box-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: relative;
+    bottom: 90px;
+}
+
+.img-p {
+    display: flex;
+}
+
+.map-marker{
+    height:20px;
+    width: 15px;
+}
+
+.img2-p {
+    display: flex;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+}
+
+.bottom-left-box {
+    height: 270px;
+    width: 380px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.smaller-rectangle {
+    height: 50px;
+    width: 360px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom-left-box-info {
+    margin: 20px;
+}
+
+/* column-2 holds the top-right-box and mid-right-box as well as the contents nested inside */
+.column-2 {
+    columns: 1;
+    width: 270px;
+    height: 880px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* top-right-box contains everything from lines 135-188 */
+.top-right-box {
+    height: 190px;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid gray;
+}
+
+.lil-thick-box {
+    height:60px;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.name-1 {
+    display: flex;
+    align-items: center;
+}
+
+.name-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.profile-icon-2 {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px;
+    position: relative;
+    top: 4px;
+}
+
+p1 {
+    flex: 2;
+}
+
+.check-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.x-icon {
+    height: 35px;
+    width: 35px;
+}
+
+
+/* mid-right-box holds everything from lines 203-248 */
+.mid-right-box {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lil-thick-box-2 {
+    height: 60px;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.dot-2 {
+    height: 25px;
+    width: 45px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.name-3 {
+    display: flex;
+    align-items: center;
+}
+
+.name-4 {
+    display: flex;
+    align-items: center;
+}
+
+.name-5 {
+    display: flex;
+    align-items: center;
+}
+
+.name-6 {
+    display: flex;
+    align-items: center;
+}
+
+.small-bottom-box {
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
